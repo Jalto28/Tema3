@@ -8,7 +8,7 @@ public class Ej7 {
         System.out.print("Introduce la edad: ");
         int edad = teclado.nextInt();
 
-        System.out.print("¿Los padres son socios? (S/N): ");
+        System.out.print("¿Los padres son socios? (true/false): ");
         boolean padresSocios = teclado.nextBoolean();
 
         double cuotaBase = 500;  // Cuota base en euros
