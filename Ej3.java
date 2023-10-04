@@ -8,7 +8,7 @@ public class Ej3 {
 		int edad;
 		
 		System.out.println("Introduce la edad");
-		edad = teclado.nextInt();
+		edad = Integer.parseInt(teclado.nextInt());
 		
         if (edad >= 18) {
             System.out.println("La persona de edad " + edad + " es mayor de edad");
